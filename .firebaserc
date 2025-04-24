@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "sample-firebase-app-e5e16",
+    "-": "sample-firebase-app-e5e16"
+  },
+  "targets": {},
+  "etags": {}
+}
