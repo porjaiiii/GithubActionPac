@@ -1,0 +1,50 @@
+[debug] [2025-04-24T08:23:25.482Z] ----------------------------------------------------------------------
+[debug] [2025-04-24T08:23:25.486Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\Documents\GitHub\GithubActionPac\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-24T08:23:25.487Z] CLI Version:   14.2.1
+[debug] [2025-04-24T08:23:25.487Z] Platform:      win32
+[debug] [2025-04-24T08:23:25.487Z] Node Version:  v20.17.0
+[debug] [2025-04-24T08:23:25.487Z] Time:          Thu Apr 24 2025 15:23:25 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-24T08:23:25.488Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-24T08:23:25.859Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-24T08:23:25.860Z] > authorizing via signed-in user (6733290021@student.chula.ac.th)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-24T08:23:25.877Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-24T08:23:25.877Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-24T08:23:25.878Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-24T08:23:25.887Z] [hub] writing locator at C:\Users\User\AppData\Local\Temp\hub-sample-firebase-app-e5e16.json
+[debug] [2025-04-24T08:23:25.912Z] Checked if tokens are valid: true, expires at: 1745486530047
+[debug] [2025-04-24T08:23:25.912Z] Checked if tokens are valid: true, expires at: 1745486530047
+[debug] [2025-04-24T08:23:25.914Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/sample-firebase-app-e5e16/sites 
+[debug] [2025-04-24T08:23:26.924Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/sample-firebase-app-e5e16/sites 200
+[debug] [2025-04-24T08:23:26.924Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/sample-firebase-app-e5e16/sites {"sites":[{"name":"projects/sample-firebase-app-e5e16/sites/sample-firebase-app-e5e16","defaultUrl":"https://sample-firebase-app-e5e16.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-24T08:23:26.925Z] Checked if tokens are valid: true, expires at: 1745486530047
+[debug] [2025-04-24T08:23:26.925Z] Checked if tokens are valid: true, expires at: 1745486530047
+[debug] [2025-04-24T08:23:26.925Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sample-firebase-app-e5e16/webApps/-/config [none]
+[debug] [2025-04-24T08:23:27.567Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sample-firebase-app-e5e16/webApps/-/config 200
+[debug] [2025-04-24T08:23:27.567Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sample-firebase-app-e5e16/webApps/-/config {"projectId":"sample-firebase-app-e5e16","storageBucket":"sample-firebase-app-e5e16.firebasestorage.app","apiKey":"AIzaSyDvlPpcn_ZFYKWtOxyg9lCLBiy48ZDQDNY","authDomain":"sample-firebase-app-e5e16.firebaseapp.com","messagingSenderId":"439798474637"}
+[debug] [2025-04-24T08:23:27.577Z] Checked if tokens are valid: true, expires at: 1745486530047
+[debug] [2025-04-24T08:23:27.577Z] Checked if tokens are valid: true, expires at: 1745486530047
+[debug] [2025-04-24T08:23:27.577Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sample-firebase-app-e5e16 [none]
+[debug] [2025-04-24T08:23:28.999Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sample-firebase-app-e5e16 200
+[debug] [2025-04-24T08:23:28.999Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sample-firebase-app-e5e16 {"projectId":"sample-firebase-app-e5e16","projectNumber":"439798474637","displayName":"Sample Firebase App","name":"projects/sample-firebase-app-e5e16","resources":{"hostingSite":"sample-firebase-app-e5e16"},"state":"ACTIVE","etag":"1_4d07cd85-395c-45a8-9716-bf1ceb9a683e"}
+[info] i  hosting[sample-firebase-app-e5e16]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[sample-firebase-app-e5e16]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-24T08:23:29.033Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [24/Apr/2025:08:23:34 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2025:08:23:34 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
